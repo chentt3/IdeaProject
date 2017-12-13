@@ -14,5 +14,6 @@ public class Main {
         helloWorld.sayHello();
         helloWorld.sum();
         helloWorld.cheng();
+        helloWorld.jian();
     }
 }

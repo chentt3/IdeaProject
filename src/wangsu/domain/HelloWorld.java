@@ -6,6 +6,7 @@ public class HelloWorld {
     private int y ;
     private int c=0;
     private int d=0;
+    private int e=0;
 
     public int getX() {
         return x;
@@ -43,5 +44,10 @@ public class HelloWorld {
     public void  cheng(){
        d=c*x*y;
        System.out.println("(x+y)*x*y="+d);
+    }
+
+    public void jian(){
+        e=x-y;
+        System.out.println("x-y="+e);
     }
 }
