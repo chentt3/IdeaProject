@@ -37,11 +37,11 @@ public class HelloWorld {
 
     public void sum(){
         c=x+y+x+y;
-        System.out.println("x+y="+c);
+        System.out.println("x+y+x+y="+c);
     }
 
     public void  cheng(){
        d=c*x*y;
-       System.out.println("(x+y)*x="+d);
+       System.out.println("(x+y)*x*y="+d);
     }
 }
